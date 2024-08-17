@@ -1,676 +1,881 @@
 <!doctype html>
 <html lang="en">
+	<head>
+		<title>HomePage</title>
+		<meta charset="UTF-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<!-- <style>body{opacity: 0;}</style> -->
+		<link rel="stylesheet" href="css/style.min.css?_v=20240817011927" />
+		<link rel="shortcut icon" href="favicon.ico" />
+		<!-- <meta name="robots" content="noindex, nofollow"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
 
-<head>
-	<title>HomePage</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240817011927">
-	<link rel="shortcut icon" href="favicon.ico">
-	<!-- <meta name="robots" content="noindex, nofollow"> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<a href="#" class="header__logo"><img src="img/logo.svg" alt="Logo" /></a>
 
-<body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
-				<a href="#" class="header__logo"><img src="img/logo.svg" alt="Logo" /></a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="https://planeta-igr.com/ua/" class="menu__link">Головна</a></li>
+								<li class="menu__item"><a data-goto=".item-preorder--2" href="#" class="menu__link">Купити</a></li>
+								<li class="menu__item">
+									<a data-goto=".page__components" href="#" class="menu__link">Вміст гри</a>
+								</li>
+								<li class="menu__item"><a data-goto=".page__rules" href="#" class="menu__link">Правила</a></li>
+								<li class="menu__item">
+									<a data-goto=".page__production" href="" class="menu__link">Виробництво</a>
+								</li>
+								<li class="menu__item">
+									<a data-goto=".page__orders" href="#" class="menu__link">Гурт</a>
+								</li>
+								<li class="menu__item">
+									<a data-goto=".page__contacts" href="" class="menu__link">Контакти</a>
+								</li>
+							</ul>
+							<div class="header__socials-mobile">
+								<a target="_blank" href="viber://chat?number=%2B380504891020" class="socials__item">
+									<div class="socials__icon _icon-viber">
+										<span></span>
+									</div>
+								</a>
+								<a target="_blank" href="tel:0504891020" class="socials__item socials__phone"> 050 489-10-20 </a>
+								<a target="_blank" href="https://www.instagram.com/planetaigrcom/" class="socials__item">
+									<div class="socials__icon _icon-insta">
+										<span></span>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.tiktok.com/@planetaigrcom" class="socials__item">
+									<div class="socials__icon _icon-tik-tok">
+										<span></span>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.facebook.com/planetaigr/" class="socials__item">
+									<div class="socials__icon _icon-facebook">
+										<span></span>
+									</div>
+								</a>
 
-				<div class="header__menu menu">
-					<nav class="menu__body">
-						<ul class="menu__list">
-							<li class="menu__item"><a href="https://planeta-igr.com/ua/" class="menu__link">Головна</a></li>
-							<li class="menu__item"><a data-goto=".item-preorder--2" href="#" class="menu__link">Купити</a></li>
-							<li class="menu__item">
-								<a data-goto=".page__components" href="#" class="menu__link">Вміст гри</a>
-							</li>
-							<li class="menu__item"><a data-goto=".page__rules" href="#" class="menu__link">Правила</a></li>
-							<li class="menu__item">
-								<a data-goto=".page__production" href="" class="menu__link">Виробництво</a>
-							</li>
-							<li class="menu__item">
-								<a data-goto=".page__orders" href="#" class="menu__link">Гурт</a>
-							</li>
-							<li class="menu__item">
-								<a data-goto=".page__contacts" href="" class="menu__link">Контакти</a>
-							</li>
-						</ul>
-						<div class="header__socials-mobile">
-							<a target="_blank" href="viber://chat?number=%2B380504891020" class="socials__item">
-								<div class="socials__icon _icon-viber">
-									<span></span>
-								</div>
-							</a>
-							<a target="_blank" href="tel:0504891020" class="socials__item socials__phone"> 050 489-10-20 </a>
-							<a target="_blank" href="https://www.instagram.com/planetaigrcom/" class="socials__item">
-								<div class="socials__icon _icon-insta">
-									<span></span>
-								</div>
-							</a>
-							<a target="_blank" href="https://www.tiktok.com/@planetaigrcom" class="socials__item">
-								<div class="socials__icon _icon-tik-tok">
-									<span></span>
-								</div>
-							</a>
-							<a target="_blank" href="https://www.facebook.com/planetaigr/" class="socials__item">
-								<div class="socials__icon _icon-facebook">
-									<span></span>
-								</div>
-							</a>
+								<a target="_blank" href="https://t.me/joinchat/AAAAAFcZ0PUDr8su7vFKOA" class="socials__item">
+									<div class="socials__icon _icon-telegram">
+										<span></span>
+									</div>
+								</a>
+							</div>
+						</nav>
+					</div>
+					<div class="header__socials socials header__socials--desktop">
+						<a target="_blank" href="viber://chat?number=%2B380504891020" class="socials__item socials__item--viber">
+							<div class="socials__icon _icon-viber">
+								<span></span>
+							</div>
+						</a>
+						<a target="_blank" href="tel:0504891020" class="socials__item socials__phone"> 050 489-10-20 </a>
+						<a target="_blank" href="https://www.instagram.com/planetaigrcom/" class="socials__item">
+							<div class="socials__icon _icon-insta">
+								<span></span>
+							</div>
+						</a>
+						<a target="_blank" href="https://www.tiktok.com/@planetaigrcom" class="socials__item">
+							<div class="socials__icon _icon-tik-tok">
+								<span></span>
+							</div>
+						</a>
+						<a target="_blank" href="https://www.facebook.com/planetaigr/" class="socials__item">
+							<div class="socials__icon _icon-facebook">
+								<span></span>
+							</div>
+						</a>
 
-							<a target="_blank" href="https://t.me/joinchat/AAAAAFcZ0PUDr8su7vFKOA" class="socials__item">
-								<div class="socials__icon _icon-telegram">
-									<span></span>
-								</div>
-							</a>
-						</div>
-					</nav>
-				</div>
-				<div class="header__socials socials header__socials--desktop">
-					<a target="_blank" href="viber://chat?number=%2B380504891020" class="socials__item socials__item--viber">
-						<div class="socials__icon _icon-viber">
-							<span></span>
-						</div>
-					</a>
-					<a target="_blank" href="tel:0504891020" class="socials__item socials__phone"> 050 489-10-20 </a>
-					<a target="_blank" href="https://www.instagram.com/planetaigrcom/" class="socials__item">
-						<div class="socials__icon _icon-insta">
-							<span></span>
-						</div>
-					</a>
-					<a target="_blank" href="https://www.tiktok.com/@planetaigrcom" class="socials__item">
-						<div class="socials__icon _icon-tik-tok">
-							<span></span>
-						</div>
-					</a>
-					<a target="_blank" href="https://www.facebook.com/planetaigr/" class="socials__item">
-						<div class="socials__icon _icon-facebook">
-							<span></span>
-						</div>
-					</a>
-
-					<a target="_blank" href="https://t.me/joinchat/AAAAAFcZ0PUDr8su7vFKOA" class="socials__item">
-						<div class="socials__icon _icon-telegram">
-							<span></span>
-						</div>
-					</a>
-				</div>
-				<!-- <a target="_blank" href="viber://chat?number=%2B380504891020" class="socials__item socials__item--viber socials__item--viber-mobile">
+						<a target="_blank" href="https://t.me/joinchat/AAAAAFcZ0PUDr8su7vFKOA" class="socials__item">
+							<div class="socials__icon _icon-telegram">
+								<span></span>
+							</div>
+						</a>
+					</div>
+					<!-- <a target="_blank" href="viber://chat?number=%2B380504891020" class="socials__item socials__item--viber socials__item--viber-mobile">
 			<div class="socials__icon _icon-viber">
 				<span></span>
 			</div>
 		</a> -->
 
-				<button type="button" class="menu__icon icon-menu">
-					<svg width="19" height="15" viewBox="0 0 19 15" fill="none" class="burger-open" xmlns="http://www.w3.org/2000/svg">
-						<path d="M1.5 1.5H17.5M1.5 7.5H9.5M1.5 13.5H17.5" stroke="#C849CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-					</svg>
-					<svg width="23" height="24" viewBox="0 0 23 24" fill="none" class="burger-close" xmlns="http://www.w3.org/2000/svg">
-						<path d="M5.84277 6.34277L17.1565 17.6565" stroke="#C849CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-						<path d="M17.1572 6.34277L5.84352 17.6565" stroke="#C849CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-					</svg>
-				</button>
-			</div>
-		</header>
-
-		<main class="page">
-			<aside class="sidebar">
-				<div class="sidebar__container">
-					<button type="button" class="cart _icon-cart">
-						<div class="cart__count">
-							<span>0</span>
-						</div>
+					<button type="button" class="menu__icon icon-menu">
+						<svg width="19" height="15" viewBox="0 0 19 15" fill="none" class="burger-open" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1.5 1.5H17.5M1.5 7.5H9.5M1.5 13.5H17.5" stroke="#C849CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+						<svg width="23" height="24" viewBox="0 0 23 24" fill="none" class="burger-close" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5.84277 6.34277L17.1565 17.6565" stroke="#C849CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							<path d="M17.1572 6.34277L5.84352 17.6565" stroke="#C849CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
 					</button>
-					<a href="#" data-goto=".header" class="arrow-up _icon-arrow-down"></a>
 				</div>
-			</aside>
-			<section class="page__hero hero">
-				<div class="hero__container">
-					<div class="hero__wrapper">
-						<div class="hero__content">
-							<h1 class="hero__title title">Острів динозаврів</h1>
-							<div class="hero__bottom-block">
-								<p>
-									<strong>Острів Динозаврів — настільний симулятор «Парку Юрського періоду»! </strong>
-								</p>
-								<p class="hero__bottom-block-subtitle">
-									Вітаємо вас на Острові Динозаврів — місці, де мрії стають реальністю, а ваші уявлення про динозаврів набувають нових форм!
-								</p>
-								<div class="text-decor">
-									<div class="text-decor__wrapper">
-										<p>
-											У цій економічній євро стратегії в науково-фантастичній тематиці, натхненній культовим фільмом «Парк Юрського періоду», ви
-											станете головним архітектором та менеджером свого власного парку розваг із живими доісторичними чудовиськами. Але будьте
-											обережні: разом із захопленням та хвилюванням приходить і велика відповідальність. Адже, як ми знаємо з кіно, один невдалий
-											крок — і ваш парк перетвориться на арену хаосу.
-										</p>
-										<p>
-											<span class="pink">Знайшли ДНК?</span> Це вже перший крок! Чи зможете ви створити зграю велоцирапторів, які викликатимуть
-											захоплення у відвідувачів? Будьте обережні: вам знадобиться великий вольєр та багато охорони, щоб запобігти втечі та
-											небезпечним інцидентам. Або, можливо, ви оберете більш безпечний шлях й зосередитесь на травоїдних динозаврах, які менш
-											небезпечні, але не так вражають? Вибір за вами, але пам’ятайте, що кожне рішення впливає на успіх вашого парку.
-										</p>
-									</div>
-								</div>
+			</header>
 
-								<div class="hero__buttons">
-									<a href="#" data-goto=".item-preorder--1" type="button" class="button button--red-decor"><span> Замовлення </span></a>
-									<a href="#" data-goto=".page__rules" type="button" class="button button--pink"><span>Дізнатися більше </span> </a>
-								</div>
+			<main class="page">
+				<aside class="sidebar">
+					<div class="sidebar__container">
+						<button type="button" class="cart _icon-cart">
+							<div class="cart__count">
+								<span>0</span>
 							</div>
-						</div>
-						<div data-da=".hero__bottom-block, 991.98, 2" class="hero__media">
-							<picture><source srcset="img/hero/hero_product.webp" type="image/webp"><img src="img/hero/hero_product.png" alt="Hero image" /></picture>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="page__awards awards">
-				<div class="awards__container">
-					<h2 class="awards__title title">Нагороди</h2>
-					<div class="awards__body">
-						<div class="game__slider swiper awards__slider">
-							<div class="game__wrapper swiper-wrapper">
-								<div class="game__slide swiper-slide">
-									<div class="game__image-ibg">
-										<picture><source data-srcset="img/rewards/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/rewards/01.jpg" alt="Awards" /></picture>
-									</div>
-									<div class="game__content">
-										<div class="game__content-wrapper">
-											<div class="game__title">2017</div>
-											<div class="game__text">Board Game Quest Awards Best Production Values Nominee</div>
-										</div>
-									</div>
-								</div>
-								<div class="game__slide swiper-slide">
-									<div class="game__image-ibg">
-										<picture><source data-srcset="img/rewards/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/rewards/02.jpg" alt="Awards" /></picture>
-									</div>
-									<div class="game__content">
-										<div class="game__content-wrapper">
-											<div class="game__title">2017</div>
-											<div class="game__text">Board Game Quest Awards Best Thematic Game Nominee</div>
-										</div>
-									</div>
-								</div>
-								<div class="game__slide swiper-slide">
-									<div class="game__image-ibg">
-										<picture><source data-srcset="img/rewards/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/rewards/03.jpg" alt="Awards" /></picture>
-									</div>
-									<div class="game__content">
-										<div class="game__content-wrapper">
-											<div class="game__title">2017</div>
-											<div class="game__text">Golden Geek Best Board Game Artwork & Presentation Nominee</div>
-										</div>
-									</div>
-								</div>
-								<div class="game__slide swiper-slide">
-									<div class="game__image-ibg">
-										<picture><source data-srcset="img/rewards/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/rewards/04.jpg" alt="Awards" /></picture>
-									</div>
-									<div class="game__content">
-										<div class="game__content-wrapper">
-											<div class="game__title">2017</div>
-											<div class="game__text">Golden Geek Best Strategy Board Game Nominee</div>
-										</div>
-									</div>
-								</div>
-								<div class="game__slide swiper-slide">
-									<div class="game__image-ibg">
-										<picture><source data-srcset="img/rewards/05.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/rewards/05.jpg" alt="Awards" /></picture>
-									</div>
-									<div class="game__content">
-										<div class="game__content-wrapper">
-											<div class="game__title">2017</div>
-											<div class="game__text">Golden Geek Best Thematic Board Game Nominee</div>
-										</div>
-									</div>
-								</div>
-								<div class="game__slide swiper-slide">
-									<div class="game__image-ibg">
-										<picture><source data-srcset="img/rewards/06.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/rewards/06.jpg" alt="Awards" /></picture>
-									</div>
-									<div class="game__content">
-										<div class="game__content-wrapper">
-											<div class="game__title">2017</div>
-											<div class="game__text">Golden Geek Board Game of the Year Nominee</div>
-										</div>
-									</div>
-								</div>
-								<div class="game__slide swiper-slide">
-									<div class="game__image-ibg">
-										<picture><source data-srcset="img/rewards/07.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/rewards/07.jpg" alt="Awards" /></picture>
-									</div>
-									<div class="game__content">
-										<div class="game__content-wrapper">
-											<div class="game__title">2017</div>
-											<div class="game__text">Meeples' Choice Nominee</div>
-										</div>
-									</div>
-								</div>
-								<div class="game__slide swiper-slide">
-									<div class="game__image-ibg">
-										<picture><source data-srcset="img/rewards/08.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/rewards/08.jpg" alt="Awards" /></picture>
-									</div>
-									<div class="game__content">
-										<div class="game__content-wrapper">
-											<div class="game__title">2018</div>
-											<div class="game__text">Cardboard Republic Architect Laurel Nominee</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="swiper-pagination awards-pagination"></div>
-						</div>
-						<div class="swiper-pagination"></div>
-						<button type="button" class="swiper-button-prev swiper-button">
-							<svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M18.486 10.1238L4.23268 10.1258L9.20452 15.0977C9.4155 15.3086 9.53402 15.5948 9.53402 15.8932C9.53402 16.1915 9.4155 16.4777 9.20452 16.6887C8.99354 16.8996 8.70739 17.0182 8.40902 17.0182C8.11066 17.0182 7.82451 16.8996 7.61353 16.6887L0.719239 9.79436C0.50826 9.58338 0.389734 9.29723 0.389734 8.99886C0.389734 8.70049 0.50826 8.41435 0.719239 8.20337L7.61353 1.30908C7.82451 1.0981 8.11066 0.979572 8.40903 0.979572C8.70739 0.979572 8.99354 1.0981 9.20452 1.30908C9.4155 1.52006 9.53403 1.8062 9.53403 2.10457C9.53403 2.40294 9.4155 2.68909 9.20452 2.90007L4.23268 7.87191L18.4853 7.87324C18.6333 7.87324 18.7798 7.90239 18.9166 7.95902C19.0533 8.01566 19.1775 8.09867 19.2822 8.20331C19.3868 8.30796 19.4698 8.4322 19.5265 8.56892C19.5831 8.70565 19.6122 8.8522 19.6122 9.00019C19.6122 9.14818 19.5831 9.29473 19.5265 9.43145C19.4698 9.56818 19.3868 9.69242 19.2822 9.79706C19.1775 9.90171 19.0533 9.98472 18.9166 10.0414C18.7798 10.098 18.6333 10.1271 18.4853 10.1271L18.486 10.1238Z" fill="white" />
-							</svg>
 						</button>
-						<button type="button" class="swiper-button-next swiper-button">
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M13.1257 3.51502L13.1276 17.7683L18.0995 12.7965C18.3105 12.5855 18.5966 12.467 18.895 12.467C19.1934 12.467 19.4795 12.5855 19.6905 12.7965C19.9015 13.0074 20.02 13.2936 20.02 13.592C20.02 13.8903 19.9015 14.1765 19.6905 14.3874L12.7962 21.2817C12.5852 21.4927 12.2991 21.6112 12.0007 21.6112C11.7023 21.6112 11.4162 21.4927 11.2052 21.2817L4.31091 14.3874C4.09993 14.1765 3.9814 13.8903 3.9814 13.592C3.9814 13.2936 4.09993 13.0074 4.31091 12.7965C4.52189 12.5855 4.80803 12.467 5.1064 12.467C5.40477 12.467 5.69092 12.5855 5.9019 12.7965L10.8737 17.7683L10.8751 3.51568C10.8751 3.36769 10.9042 3.22114 10.9609 3.08441C11.0175 2.94769 11.1005 2.82345 11.2051 2.71881C11.3098 2.61416 11.434 2.53115 11.5708 2.47451C11.7075 2.41788 11.854 2.38873 12.002 2.38873C12.15 2.38873 12.2966 2.41788 12.4333 2.47451C12.57 2.53115 12.6942 2.61416 12.7989 2.7188C12.9035 2.82345 12.9866 2.94769 13.0432 3.08441C13.0998 3.22114 13.129 3.36769 13.129 3.51568L13.1257 3.51502Z" fill="white" />
-							</svg>
-						</button>
+						<a href="#" data-goto=".header" class="arrow-up _icon-arrow-down"></a>
 					</div>
-				</div>
-			</section>
-			<section class="page__preorder preorder">
-				<div class="preorder__container">
-					<div class="preorder__body">
-						<article class="preorder__item item-preorder item-preorder--1">
-							<div class="item-preorder__content">
-								<div class="item-preorder__top">
-									<div class="item-preorder__text item-preorder--decor">
-										<p>Стратегічна глибина</p>
-										<p>
-											Комбінуйте різні механіки гри, такі як драфт карт та збір колекцій, побудова рушія та розміщення робітників, управління
-											ризиками та публічні й приватні цілі, аби створити унікальний ігровий досвід.
-										</p>
-									</div>
-									<div class="item-preorder__text item-preorder--decor item-preorder--decor-pink">
-										<p>Різноманітність рішень</p>
-										<p>Гра пропонує багато варіантів розвитку парку, від найняття фахівців до генетичної модифікації динозаврів.</p>
-									</div>
-									<div class="item-preorder__text item-preorder--decor">
-										<p>Економічна стратегія</p>
-										<p>Керуйте ресурсами та ризиками, щоб забезпечити процвітання свого парку.</p>
-									</div>
-									<div class="item-preorder__text item-preorder--decor item-preorder--decor-pink">
-										<p>Приваблива тематика та компоненти.</p>
-										<p>
-											Відчуйте себе у ролі власника парку з динозаврами, надихаючись культовими фільмами. У вас буде безліч «бурштинових» кубиків на
-											кшталт того самого всім відомого шматочку з комаром, з якого все і почалось.
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="item-preorder__image-ibg">
-								<h3 class="item-preorder__title title title--left">Особливості гри</h3>
-								<picture><source data-srcset="img/order/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/order/01.png" alt="Game variant" /></picture>
-							</div>
-						</article>
-						<article class="preorder__item item-preorder item-preorder--2">
-							<div class="item-preorder__content">
-								<div class="item-preorder__top">
-									<h3 class="item-preorder__title title title--left">Замовлення</h3>
-								</div>
-								<div class="item-preorder__footer">
-									<div class="item-preorder__prices item-preorder--decor">
-										<div class="item-preorder--decor-wrapper">
-											<span class="item-preorder__prices-block">
-												<div class="item-preorder__label">Острів Динозаврів (Dinosaur Island)</div>
-												<div class="item-preorder__price--current">2050 <span>грн</span></div>
-												<div class="item-preorder__price--old">2590 <span>грн</span></div>
-											</span>
+				</aside>
+				<section class="page__hero hero">
+					<div class="hero__container">
+						<div class="hero__wrapper">
+							<div class="hero__content">
+								<h1 class="hero__title title">Острів динозаврів</h1>
+								<div class="hero__bottom-block">
+									<p>
+										<strong>Острів Динозаврів — настільний симулятор «Парку Юрського періоду»! </strong>
+									</p>
+									<p class="hero__bottom-block-subtitle">
+										Вітаємо вас на Острові Динозаврів — місці, де мрії стають реальністю, а ваші уявлення про динозаврів набувають нових форм!
+									</p>
+									<div class="text-decor">
+										<div class="text-decor__wrapper">
+											<p>
+												У цій економічній євро стратегії в науково-фантастичній тематиці, натхненній культовим фільмом «Парк Юрського періоду», ви
+												станете головним архітектором та менеджером свого власного парку розваг із живими доісторичними чудовиськами. Але будьте
+												обережні: разом із захопленням та хвилюванням приходить і велика відповідальність. Адже, як ми знаємо з кіно, один невдалий
+												крок — і ваш парк перетвориться на арену хаосу.
+											</p>
+											<p>
+												<span class="pink">Знайшли ДНК?</span> Це вже перший крок! Чи зможете ви створити зграю велоцирапторів, які викликатимуть
+												захоплення у відвідувачів? Будьте обережні: вам знадобиться великий вольєр та багато охорони, щоб запобігти втечі та
+												небезпечним інцидентам. Або, можливо, ви оберете більш безпечний шлях й зосередитесь на травоїдних динозаврах, які менш
+												небезпечні, але не так вражають? Вибір за вами, але пам’ятайте, що кожне рішення впливає на успіх вашого парку.
+											</p>
 										</div>
 									</div>
-									<button type="submit" class="button item-preorder__button button--red-decor"><span>Замовлення</span></button>
+
+									<div class="hero__buttons">
+										<a href="#" data-goto=".item-preorder--1" type="button" class="button button--red-decor"><span> Замовлення </span></a>
+										<a href="#" data-goto=".page__rules" type="button" class="button button--pink"><span>Дізнатися більше </span> </a>
+									</div>
 								</div>
 							</div>
-							<div data-da=".item-preorder--2 .item-preorder__content, 850, 1" class="item-preorder__image-ibg">
-								<picture><source data-srcset="img/order/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/order/02.png" alt="Game variant" /></picture>
+							<div data-da=".hero__bottom-block, 991.98, 2" class="hero__media">
+								<picture
+									><source srcset="img/hero/hero_product.webp" type="image/webp" />
+									<img src="img/hero/hero_product.png" alt="Hero image"
+								/></picture>
 							</div>
-						</article>
+						</div>
 					</div>
-				</div>
-			</section>
-			<section class="page__rules rules">
-				<div class="rules__container">
-					<div data-spollers class="spollers rules__spollers">
-						<details class="spollers__item rules__spollers-item">
-							<summary class="spollers__title rules__spollers-title close-spoller">
-								<span><strong>Правила гри</strong></span>
-								<p></p>
-							</summary>
-							<div class="spollers__body rules__spollers-body">
-								<div class="rules__spollers-block">
-									<div class="rules__spollers-wrapper rules__spollers-wrapper--columns">
-										<div class="rules__spollers-content">
-											<p>
-												На початку гри ви опиняєтесь в ролі керівника корпорації майбутнього, яка прагне створити найкращий парк динозаврів. Вам
-												доведеться наймати вчених для дослідження геному доісторичних рептилій, займатись клонуванням, будувати вольєри та
-												атракціони. Залучайте відвідувачів, забезпечуйте їх безпеку та розвивайте інфраструктуру, щоб здобути якомога більше
-												переможних очок.
-											</p>
-											<p>Виграє той, хто зможе найкраще поєднати всі ці аспекти та набрати найбільшу кількість очок до кінця гри.</p>
-											<a target="_blank" href="https://planeta-igr.com/image/data/instrukcii/93266.pdf" class="rules__goal-download button button--red-decor">Завантажити PDF правила</a>
+				</section>
+				<section class="page__awards awards">
+					<div class="awards__container">
+						<h2 class="awards__title title">Нагороди</h2>
+						<div class="awards__body">
+							<div class="game__slider swiper awards__slider">
+								<div class="game__wrapper swiper-wrapper">
+									<div class="game__slide swiper-slide">
+										<div class="game__image-ibg">
+											<picture
+												><source
+													data-srcset="img/rewards/01.webp"
+													srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													type="image/webp" />
+												<img
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													data-src="img/rewards/01.jpg"
+													alt="Awards"
+											/></picture>
 										</div>
-										<div class="rules__spollers-media rules__spollers-media--vertical">
-											<picture><source srcset="img/rules/01.webp" type="image/webp"><img src="img/rules/01.png" alt="" /></picture>
+										<div class="game__content">
+											<div class="game__content-wrapper">
+												<div class="game__title">2017</div>
+												<div class="game__text">Board Game Quest Awards Best Production Values Nominee</div>
+											</div>
+										</div>
+									</div>
+									<div class="game__slide swiper-slide">
+										<div class="game__image-ibg">
+											<picture
+												><source
+													data-srcset="img/rewards/02.webp"
+													srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													type="image/webp" />
+												<img
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													data-src="img/rewards/02.jpg"
+													alt="Awards"
+											/></picture>
+										</div>
+										<div class="game__content">
+											<div class="game__content-wrapper">
+												<div class="game__title">2017</div>
+												<div class="game__text">Board Game Quest Awards Best Thematic Game Nominee</div>
+											</div>
+										</div>
+									</div>
+									<div class="game__slide swiper-slide">
+										<div class="game__image-ibg">
+											<picture
+												><source
+													data-srcset="img/rewards/03.webp"
+													srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													type="image/webp" />
+												<img
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													data-src="img/rewards/03.jpg"
+													alt="Awards"
+											/></picture>
+										</div>
+										<div class="game__content">
+											<div class="game__content-wrapper">
+												<div class="game__title">2017</div>
+												<div class="game__text">Golden Geek Best Board Game Artwork & Presentation Nominee</div>
+											</div>
+										</div>
+									</div>
+									<div class="game__slide swiper-slide">
+										<div class="game__image-ibg">
+											<picture
+												><source
+													data-srcset="img/rewards/04.webp"
+													srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													type="image/webp" />
+												<img
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													data-src="img/rewards/04.jpg"
+													alt="Awards"
+											/></picture>
+										</div>
+										<div class="game__content">
+											<div class="game__content-wrapper">
+												<div class="game__title">2017</div>
+												<div class="game__text">Golden Geek Best Strategy Board Game Nominee</div>
+											</div>
+										</div>
+									</div>
+									<div class="game__slide swiper-slide">
+										<div class="game__image-ibg">
+											<picture
+												><source
+													data-srcset="img/rewards/05.webp"
+													srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													type="image/webp" />
+												<img
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													data-src="img/rewards/05.jpg"
+													alt="Awards"
+											/></picture>
+										</div>
+										<div class="game__content">
+											<div class="game__content-wrapper">
+												<div class="game__title">2017</div>
+												<div class="game__text">Golden Geek Best Thematic Board Game Nominee</div>
+											</div>
+										</div>
+									</div>
+									<div class="game__slide swiper-slide">
+										<div class="game__image-ibg">
+											<picture
+												><source
+													data-srcset="img/rewards/06.webp"
+													srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													type="image/webp" />
+												<img
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													data-src="img/rewards/06.jpg"
+													alt="Awards"
+											/></picture>
+										</div>
+										<div class="game__content">
+											<div class="game__content-wrapper">
+												<div class="game__title">2017</div>
+												<div class="game__text">Golden Geek Board Game of the Year Nominee</div>
+											</div>
+										</div>
+									</div>
+									<div class="game__slide swiper-slide">
+										<div class="game__image-ibg">
+											<picture
+												><source
+													data-srcset="img/rewards/07.webp"
+													srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													type="image/webp" />
+												<img
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													data-src="img/rewards/07.jpg"
+													alt="Awards"
+											/></picture>
+										</div>
+										<div class="game__content">
+											<div class="game__content-wrapper">
+												<div class="game__title">2017</div>
+												<div class="game__text">Meeples' Choice Nominee</div>
+											</div>
+										</div>
+									</div>
+									<div class="game__slide swiper-slide">
+										<div class="game__image-ibg">
+											<picture
+												><source
+													data-srcset="img/rewards/08.webp"
+													srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													type="image/webp" />
+												<img
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													data-src="img/rewards/08.jpg"
+													alt="Awards"
+											/></picture>
+										</div>
+										<div class="game__content">
+											<div class="game__content-wrapper">
+												<div class="game__title">2018</div>
+												<div class="game__text">Cardboard Republic Architect Laurel Nominee</div>
+											</div>
 										</div>
 									</div>
 								</div>
+								<div class="swiper-pagination awards-pagination"></div>
 							</div>
-						</details>
-						<details class="spollers__item rules__spollers-item">
-							<summary class="spollers__title rules__spollers-title close-spoller">
-								<span><strong>Мета гри</strong></span>
-								<p></p>
-							</summary>
-							<div class="spollers__body rules__spollers-body">
-								<div class="rules__spollers-block">
-									<div class="rules__spollers-wrapper rules__spollers-wrapper--columns">
-										<div class="rules__spollers-content">
-											<p>
-												На Острові Динозаврів гравцям належить збирати ДНК, досліджувати послідовності генів вимерлих видів та комбінувати
-												стародавню ДНК, щоб повернути до життя доісторичних істот.
-											</p>
-											<p class="bold">Основна мета гри</p>
-											<p>
-												створити парк, який буде найпривабливішим та найбезпечнішим для відвідувачів. Щосезону гравці змагатимуться за те, щоб
-												побудувати найкращий парк, а потім відкрити його для відвідувачів. Гравці мають дбати про безпеку свого парку, адже
-												динозаври можуть втікати й спричиняти хаос, що може негативно позначитися на репутації парку та кількості отриманих
-												переможних очок.
-											</p>
-										</div>
-										<div class="rules__spollers-media rules__spollers-media--vertical">
-											<picture><source srcset="img/rules/02.webp" type="image/webp"><img src="img/rules/02.png" alt="" /></picture>
-										</div>
-									</div>
-								</div>
-							</div>
-						</details>
-						<details class="spollers__item rules__spollers-item">
-							<summary class="spollers__title rules__spollers-title close-spoller">
-								<span><strong>Хід гри</strong></span>
-								<p></p>
-							</summary>
-							<div class="spollers__body rules__spollers-body">
-								<div class="rules__spollers-block">
-									<div class="rules__spollers-wrapper rules__spollers-wrapper--columns">
-										<div class="rules__spollers-content">
-											<p>
-												Перед початком партії кожен гравець обирає корпорацію, яка надає їм унікальні можливості та стартові ресурси. Далі гравці
-												отримують планшети лабораторії та парку, міпли робітників, гекси вчених, корпоративні жетони та маркери. Перший гравець
-												отримує 15 доларів, а кожен наступний — на один долар більше.
-											</p>
-											<p class="bold">Гра складається з п’яти фаз, які повторюються щораунду:</p>
-											<ol>
-												<li>
-													<span class="pink">Фаза дослідження.</span> Гравці відправляють своїх вчених на дослідження ДНК, розширення морозильної
-													камери та вивчення геному динозаврів.
-												</li>
-												<li>
-													<span class="pink">Фаза ринку.</span> Гравці витрачають два своїх ходи на наймання фахівця, будівництво споруди,
-													поліпшення лабораторії або придбання зразків ДНК.
-												</li>
-												<li>
-													<span class="pink">Фаза працівників.</span> Гравці одночасно відправляють робітників й вчених у свої лабораторії та парки,
-													синтезують ДНК, вирощують динозаврів, підвищують безпеку та збільшують місткість загонів.
-												</li>
-												<li>
-													<span class="pink">Фаза парку.</span> Гравці по черзі тягнуть з мішечка відвідувачів, визначають рівень загрози та
-													реагують на потенційні атаки динозаврів. Кожен відвідувач, що зміг вижити, приносить переможні очки.
-												</li>
-												<li>
-													<span class="pink">Прибирання.</span> Гравці готуються до наступного раунду: визначають послідовність ходів, оновлюють
-													ринок, відкривають нові плитки геномів та повертають робітників, вчених та відвідувачів. А наостанок розігруються карти
-													несподіванок.
-												</li>
-											</ol>
-										</div>
-										<div class="rules__spollers-media rules__spollers-media--vertical">
-											<picture><source srcset="img/rules/03.webp" type="image/webp"><img src="img/rules/03.png" alt="" /></picture>
-										</div>
-									</div>
-								</div>
-							</div>
-						</details>
-						<details class="spollers__item rules__spollers-item">
-							<summary class="spollers__title rules__spollers-title close-spoller">
-								<span><strong>Кінець гри</strong></span>
-								<p></p>
-							</summary>
-							<div class="spollers__body rules__spollers-body">
-								<div class="rules__spollers-block">
-									<div class="rules__spollers-wrapper rules__spollers-wrapper--columns">
-										<div class="rules__spollers-content">
-											<p>
-												Виконуючи завдання на відповідних картах цілей, гравці викладають на них корпоративні жетони. Коли залишається одна карта
-												невиконаної цілі, учасники дограють поточний раунд і закінчують партію. Гравці додають до очок, набраних в процесі партії,
-												очки за споруди, динозаврів у вольєрах, жетони на картах завдань та залишені гроші. Гравці втрачають по десять очок за кожен
-												порожній вольєр.
-											</p>
-											<p class="fw-700">Перемагає гравець з найбільшою кількістю очок.</p>
-										</div>
-										<div class="rules__spollers-media rules__spollers-media--vertical" style="flex-basis: 39.4%">
-											<picture><source srcset="img/rules/04.webp" type="image/webp"><img src="img/rules/04.png" alt="" /></picture>
-										</div>
-									</div>
-								</div>
-							</div>
-						</details>
-						<details class="spollers__item rules__spollers-item">
-							<summary class="spollers__title rules__spollers-title close-spoller">
-								<span><strong>Режими гри</strong></span>
-								<p></p>
-							</summary>
-							<div class="spollers__body rules__spollers-body">
-								<div class="rules__spollers-block">
-									<div class="rules__spollers-wrapper rules__spollers-wrapper--columns">
-										<div class="rules__spollers-content">
-											<p>
-												Гра має декілька режимів гри, включаючи сценарії, де можна змагатися один проти одного або співпрацювати з іншими гравцями
-												проти викликів, поставлених грою:
-											</p>
-											<ul>
-												<li><span class="pink">Теорія порядку</span> пропонує грати без карт несподіванок, що підвищить стратегічний елемент;</li>
-												<li><span class="pink">Теорія хаосу</span> базується на підвищенні рівня загрози у парку кожного гравця;</li>
-												<li>
-													<span class="pink">Соло-гра</span> проводиться за загальними правилами, але з деякими змінами коштом використання карт ШІ.
-												</li>
-											</ul>
-										</div>
-										<div class="rules__spollers-media rules__spollers-media--vertical" style="flex-basis: 39.4%">
-											<picture><source srcset="img/rules/05.webp" type="image/webp"><img src="img/rules/05.png" alt="" /></picture>
-										</div>
-									</div>
-								</div>
-							</div>
-						</details>
+							<div class="swiper-pagination"></div>
+							<button type="button" class="swiper-button-prev swiper-button">
+								<svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M18.486 10.1238L4.23268 10.1258L9.20452 15.0977C9.4155 15.3086 9.53402 15.5948 9.53402 15.8932C9.53402 16.1915 9.4155 16.4777 9.20452 16.6887C8.99354 16.8996 8.70739 17.0182 8.40902 17.0182C8.11066 17.0182 7.82451 16.8996 7.61353 16.6887L0.719239 9.79436C0.50826 9.58338 0.389734 9.29723 0.389734 8.99886C0.389734 8.70049 0.50826 8.41435 0.719239 8.20337L7.61353 1.30908C7.82451 1.0981 8.11066 0.979572 8.40903 0.979572C8.70739 0.979572 8.99354 1.0981 9.20452 1.30908C9.4155 1.52006 9.53403 1.8062 9.53403 2.10457C9.53403 2.40294 9.4155 2.68909 9.20452 2.90007L4.23268 7.87191L18.4853 7.87324C18.6333 7.87324 18.7798 7.90239 18.9166 7.95902C19.0533 8.01566 19.1775 8.09867 19.2822 8.20331C19.3868 8.30796 19.4698 8.4322 19.5265 8.56892C19.5831 8.70565 19.6122 8.8522 19.6122 9.00019C19.6122 9.14818 19.5831 9.29473 19.5265 9.43145C19.4698 9.56818 19.3868 9.69242 19.2822 9.79706C19.1775 9.90171 19.0533 9.98472 18.9166 10.0414C18.7798 10.098 18.6333 10.1271 18.4853 10.1271L18.486 10.1238Z"
+										fill="white"
+									/>
+								</svg>
+							</button>
+							<button type="button" class="swiper-button-next swiper-button">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M13.1257 3.51502L13.1276 17.7683L18.0995 12.7965C18.3105 12.5855 18.5966 12.467 18.895 12.467C19.1934 12.467 19.4795 12.5855 19.6905 12.7965C19.9015 13.0074 20.02 13.2936 20.02 13.592C20.02 13.8903 19.9015 14.1765 19.6905 14.3874L12.7962 21.2817C12.5852 21.4927 12.2991 21.6112 12.0007 21.6112C11.7023 21.6112 11.4162 21.4927 11.2052 21.2817L4.31091 14.3874C4.09993 14.1765 3.9814 13.8903 3.9814 13.592C3.9814 13.2936 4.09993 13.0074 4.31091 12.7965C4.52189 12.5855 4.80803 12.467 5.1064 12.467C5.40477 12.467 5.69092 12.5855 5.9019 12.7965L10.8737 17.7683L10.8751 3.51568C10.8751 3.36769 10.9042 3.22114 10.9609 3.08441C11.0175 2.94769 11.1005 2.82345 11.2051 2.71881C11.3098 2.61416 11.434 2.53115 11.5708 2.47451C11.7075 2.41788 11.854 2.38873 12.002 2.38873C12.15 2.38873 12.2966 2.41788 12.4333 2.47451C12.57 2.53115 12.6942 2.61416 12.7989 2.7188C12.9035 2.82345 12.9866 2.94769 13.0432 3.08441C13.0998 3.22114 13.129 3.36769 13.129 3.51568L13.1257 3.51502Z"
+										fill="white"
+									/>
+								</svg>
+							</button>
+						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+				<section class="page__preorder preorder">
+					<div class="preorder__container">
+						<div class="preorder__body">
+							<article class="preorder__item item-preorder item-preorder--1">
+								<div class="item-preorder__content">
+									<div class="item-preorder__top">
+										<div class="item-preorder__text item-preorder--decor">
+											<p>Стратегічна глибина</p>
+											<p>
+												Комбінуйте різні механіки гри, такі як драфт карт та збір колекцій, побудова рушія та розміщення робітників, управління
+												ризиками та публічні й приватні цілі, аби створити унікальний ігровий досвід.
+											</p>
+										</div>
+										<div class="item-preorder__text item-preorder--decor item-preorder--decor-pink">
+											<p>Різноманітність рішень</p>
+											<p>Гра пропонує багато варіантів розвитку парку, від найняття фахівців до генетичної модифікації динозаврів.</p>
+										</div>
+										<div class="item-preorder__text item-preorder--decor">
+											<p>Економічна стратегія</p>
+											<p>Керуйте ресурсами та ризиками, щоб забезпечити процвітання свого парку.</p>
+										</div>
+										<div class="item-preorder__text item-preorder--decor item-preorder--decor-pink">
+											<p>Приваблива тематика та компоненти.</p>
+											<p>
+												Відчуйте себе у ролі власника парку з динозаврами, надихаючись культовими фільмами. У вас буде безліч «бурштинових» кубиків на
+												кшталт того самого всім відомого шматочку з комаром, з якого все і почалось.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="item-preorder__image-ibg">
+									<h3 class="item-preorder__title title title--left">Особливості гри та рейтинг BGG</h3>
+									<picture
+										><source
+											data-srcset="img/order/01.webp"
+											srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											type="image/webp" />
+										<img
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/order/01.png"
+											alt="Game variant"
+									/></picture>
+									<div class="item-preorder__blocks">
+										<div class="item-preorder__block">
+											<div class="item-preorder__block-wrapper">
+												<div class="item-preorder__block-label">Рейтинг BGG</div>
+												<div class="item-preorder__block-border"></div>
+												<div class="item-preorder__block-value">7.5</div>
+											</div>
+										</div>
+										<div class="item-preorder__block">
+											<div class="item-preorder__block-wrapper">
+												<div class="item-preorder__block-label">Відгуки</div>
+												<div class="item-preorder__block-border"></div>
+												<div class="item-preorder__block-value">16.000</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="preorder__item item-preorder item-preorder--2">
+								<div class="item-preorder__content">
+									<div class="item-preorder__top">
+										<h3 class="item-preorder__title title title--left">Замовлення</h3>
+									</div>
+									<div class="item-preorder__footer">
+										<div class="item-preorder__prices item-preorder--decor">
+											<div class="item-preorder--decor-wrapper">
+												<span class="item-preorder__prices-block">
+													<div class="item-preorder__label">Острів Динозаврів (Dinosaur Island)</div>
+													<div class="item-preorder__price--current">2050 <span>грн</span></div>
+													<div class="item-preorder__price--old">2590 <span>грн</span></div>
+												</span>
+											</div>
+										</div>
+										<button type="submit" class="button item-preorder__button button--red-decor"><span>Замовлення</span></button>
+									</div>
+								</div>
+								<div data-da=".item-preorder--2 .item-preorder__content, 850, 1" class="item-preorder__image-ibg">
+									<picture
+										><source
+											data-srcset="img/order/02.webp"
+											srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											type="image/webp" />
+										<img
+											src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+											data-src="img/order/02.png"
+											alt="Game variant"
+									/></picture>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+				<section class="page__rules rules">
+					<div class="rules__container">
+						<h2 class="preorder__title title">Правила гри</h2>
+						<div data-spollers class="spollers rules__spollers">
+							<details data-open class="spollers__item rules__spollers-item">
+								<summary class="spollers__title rules__spollers-title close-spoller">
+									<span><strong>Правила гри</strong></span>
+									<p></p>
+								</summary>
+								<div class="spollers__body rules__spollers-body">
+									<div class="rules__spollers-block">
+										<div class="rules__spollers-wrapper rules__spollers-wrapper--columns">
+											<div class="rules__spollers-content">
+												<p>
+													На початку гри ви опиняєтесь в ролі керівника корпорації майбутнього, яка прагне створити найкращий парк динозаврів. Вам
+													доведеться наймати вчених для дослідження геному доісторичних рептилій, займатись клонуванням, будувати вольєри та
+													атракціони. Залучайте відвідувачів, забезпечуйте їх безпеку та розвивайте інфраструктуру, щоб здобути якомога більше
+													переможних очок.
+												</p>
+												<p>Виграє той, хто зможе найкраще поєднати всі ці аспекти та набрати найбільшу кількість очок до кінця гри.</p>
+												<a
+													target="_blank"
+													href="https://planeta-igr.com/image/data/instrukcii/93266.pdf"
+													class="rules__goal-download button button--red-decor"
+													>Завантажити PDF правила</a
+												>
+											</div>
+											<div class="rules__spollers-media rules__spollers-media--vertical">
+												<picture
+													><source srcset="img/rules/01.webp" type="image/webp" />
+													<img src="img/rules/01.png" alt=""
+												/></picture>
+											</div>
+										</div>
+									</div>
+								</div>
+							</details>
+							<details class="spollers__item rules__spollers-item">
+								<summary class="spollers__title rules__spollers-title close-spoller">
+									<span><strong>Мета гри</strong></span>
+									<p></p>
+								</summary>
+								<div class="spollers__body rules__spollers-body">
+									<div class="rules__spollers-block">
+										<div class="rules__spollers-wrapper rules__spollers-wrapper--columns">
+											<div class="rules__spollers-content">
+												<p>
+													На Острові Динозаврів гравцям належить збирати ДНК, досліджувати послідовності генів вимерлих видів та комбінувати
+													стародавню ДНК, щоб повернути до життя доісторичних істот.
+												</p>
+												<p class="bold">Основна мета гри</p>
+												<p>
+													створити парк, який буде найпривабливішим та найбезпечнішим для відвідувачів. Щосезону гравці змагатимуться за те, щоб
+													побудувати найкращий парк, а потім відкрити його для відвідувачів. Гравці мають дбати про безпеку свого парку, адже
+													динозаври можуть втікати й спричиняти хаос, що може негативно позначитися на репутації парку та кількості отриманих
+													переможних очок.
+												</p>
+											</div>
+											<div class="rules__spollers-media rules__spollers-media--vertical">
+												<picture
+													><source srcset="img/rules/02.webp" type="image/webp" />
+													<img src="img/rules/02.png" alt=""
+												/></picture>
+											</div>
+										</div>
+									</div>
+								</div>
+							</details>
+							<details class="spollers__item rules__spollers-item">
+								<summary class="spollers__title rules__spollers-title close-spoller">
+									<span><strong>Хід гри</strong></span>
+									<p></p>
+								</summary>
+								<div class="spollers__body rules__spollers-body">
+									<div class="rules__spollers-block">
+										<div class="rules__spollers-wrapper rules__spollers-wrapper--columns">
+											<div class="rules__spollers-content">
+												<p>
+													Перед початком партії кожен гравець обирає корпорацію, яка надає їм унікальні можливості та стартові ресурси. Далі гравці
+													отримують планшети лабораторії та парку, міпли робітників, гекси вчених, корпоративні жетони та маркери. Перший гравець
+													отримує 15 доларів, а кожен наступний — на один долар більше.
+												</p>
+												<p class="bold">Гра складається з п’яти фаз, які повторюються щораунду:</p>
+												<ol>
+													<li>
+														<span class="pink">Фаза дослідження.</span> Гравці відправляють своїх вчених на дослідження ДНК, розширення морозильної
+														камери та вивчення геному динозаврів.
+													</li>
+													<li>
+														<span class="pink">Фаза ринку.</span> Гравці витрачають два своїх ходи на наймання фахівця, будівництво споруди,
+														поліпшення лабораторії або придбання зразків ДНК.
+													</li>
+													<li>
+														<span class="pink">Фаза працівників.</span> Гравці одночасно відправляють робітників й вчених у свої лабораторії та парки,
+														синтезують ДНК, вирощують динозаврів, підвищують безпеку та збільшують місткість загонів.
+													</li>
+													<li>
+														<span class="pink">Фаза парку.</span> Гравці по черзі тягнуть з мішечка відвідувачів, визначають рівень загрози та
+														реагують на потенційні атаки динозаврів. Кожен відвідувач, що зміг вижити, приносить переможні очки.
+													</li>
+													<li>
+														<span class="pink">Прибирання.</span> Гравці готуються до наступного раунду: визначають послідовність ходів, оновлюють
+														ринок, відкривають нові плитки геномів та повертають робітників, вчених та відвідувачів. А наостанок розігруються карти
+														несподіванок.
+													</li>
+												</ol>
+											</div>
+											<div class="rules__spollers-media rules__spollers-media--vertical">
+												<picture
+													><source srcset="img/rules/03.webp" type="image/webp" />
+													<img src="img/rules/03.png" alt=""
+												/></picture>
+											</div>
+										</div>
+									</div>
+								</div>
+							</details>
+							<details class="spollers__item rules__spollers-item">
+								<summary class="spollers__title rules__spollers-title close-spoller">
+									<span><strong>Кінець гри</strong></span>
+									<p></p>
+								</summary>
+								<div class="spollers__body rules__spollers-body">
+									<div class="rules__spollers-block">
+										<div class="rules__spollers-wrapper rules__spollers-wrapper--columns">
+											<div class="rules__spollers-content">
+												<p>
+													Виконуючи завдання на відповідних картах цілей, гравці викладають на них корпоративні жетони. Коли залишається одна карта
+													невиконаної цілі, учасники дограють поточний раунд і закінчують партію. Гравці додають до очок, набраних в процесі партії,
+													очки за споруди, динозаврів у вольєрах, жетони на картах завдань та залишені гроші. Гравці втрачають по десять очок за кожен
+													порожній вольєр.
+												</p>
+												<p class="fw-700">Перемагає гравець з найбільшою кількістю очок.</p>
+											</div>
+											<div class="rules__spollers-media rules__spollers-media--vertical" style="flex-basis: 39.4%">
+												<picture
+													><source srcset="img/rules/04.webp" type="image/webp" />
+													<img src="img/rules/04.png" alt=""
+												/></picture>
+											</div>
+										</div>
+									</div>
+								</div>
+							</details>
+							<details class="spollers__item rules__spollers-item">
+								<summary class="spollers__title rules__spollers-title close-spoller">
+									<span><strong>Режими гри</strong></span>
+									<p></p>
+								</summary>
+								<div class="spollers__body rules__spollers-body">
+									<div class="rules__spollers-block">
+										<div class="rules__spollers-wrapper rules__spollers-wrapper--columns">
+											<div class="rules__spollers-content">
+												<p>
+													Гра має декілька режимів гри, включаючи сценарії, де можна змагатися один проти одного або співпрацювати з іншими гравцями
+													проти викликів, поставлених грою:
+												</p>
+												<ul>
+													<li><span class="pink">Теорія порядку</span> пропонує грати без карт несподіванок, що підвищить стратегічний елемент;</li>
+													<li><span class="pink">Теорія хаосу</span> базується на підвищенні рівня загрози у парку кожного гравця;</li>
+													<li>
+														<span class="pink">Соло-гра</span> проводиться за загальними правилами, але з деякими змінами коштом використання карт ШІ.
+													</li>
+												</ul>
+											</div>
+											<div class="rules__spollers-media rules__spollers-media--vertical" style="flex-basis: 39.4%">
+												<picture
+													><source srcset="img/rules/05.webp" type="image/webp" />
+													<img src="img/rules/05.png" alt=""
+												/></picture>
+											</div>
+										</div>
+									</div>
+								</div>
+							</details>
+						</div>
+					</div>
+				</section>
 
-			<section class="page__components components">
-				<div class="components__container">
-					<h2 class="preorder__title title">Вміст гри</h2>
-					<div class="components__body">
-						<div class="components__body-top">
-							<div class="components__body-top-left">
-								<div class="components__item components__item--right-center" style="flex: 1 0 100%">
-									<picture><source srcset="img/components/01.webp" type="image/webp"><img src="img/components/01.png" alt="" /></picture>
-									<div class="components__content">
-										<p>10 кубиків ДНК</p>
+				<section class="page__components components">
+					<div class="components__container">
+						<h2 class="preorder__title title">Вміст гри</h2>
+						<div class="components__body">
+							<div class="components__body-top">
+								<div class="components__body-top-left">
+									<div class="components__item components__item--right-center" style="flex: 1 0 100%">
+										<picture
+											><source srcset="img/components/01.webp" type="image/webp" />
+											<img src="img/components/01.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>10 кубиків ДНК</p>
+										</div>
+									</div>
+									<div class="components__item components__item--bottom-left" style="flex: 1 0 60%">
+										<picture
+											><source srcset="img/components/04.webp" type="image/webp" />
+											<img src="img/components/04.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>50 динозаврів</p>
+										</div>
+									</div>
+									<div class="components__item components__item--bottom-center">
+										<picture
+											><source srcset="img/components/05.webp" type="image/webp" />
+											<img src="img/components/05.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>40 кубиків гравців</p>
+										</div>
+									</div>
+									<div class="components__item components__item--bottom-left">
+										<picture
+											><source srcset="img/components/08.webp" type="image/webp" />
+											<img src="img/components/08.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>36 працівників</p>
+										</div>
+									</div>
+									<div class="components__item components__item--bottom-center">
+										<picture
+											><source srcset="img/components/09.webp" type="image/webp" />
+											<img src="img/components/09.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>80 розвідувачів</p>
+											<p>(70 гостей, 10 розбишак)</p>
+										</div>
 									</div>
 								</div>
-								<div class="components__item components__item--bottom-left" style="flex: 1 0 60%">
-									<picture><source srcset="img/components/04.webp" type="image/webp"><img src="img/components/04.png" alt="" /></picture>
-									<div class="components__content">
-										<p>50 динозаврів</p>
+								<div class="components__body-top-right">
+									<div class="components__item components__item--bottom-center">
+										<picture
+											><source srcset="img/components/02.webp" type="image/webp" />
+											<img src="img/components/02.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>20 жетонів корпорації</p>
+										</div>
 									</div>
-								</div>
-								<div class="components__item components__item--bottom-center">
-									<picture><source srcset="img/components/05.webp" type="image/webp"><img src="img/components/05.png" alt="" /></picture>
-									<div class="components__content">
-										<p>40 кубиків грвців</p>
+									<div class="components__item components__item--bottom-center">
+										<picture
+											><source srcset="img/components/03.webp" type="image/webp" />
+											<img src="img/components/03.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>12 модифікаторів</p>
+										</div>
 									</div>
-								</div>
-								<div class="components__item components__item--bottom-left">
-									<picture><source srcset="img/components/08.webp" type="image/webp"><img src="img/components/08.png" alt="" /></picture>
-									<div class="components__content">
-										<p>36 працівників</p>
+
+									<div class="components__item components__item--bottom-center">
+										<picture
+											><source srcset="img/components/06.webp" type="image/webp" />
+											<img src="img/components/06.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>12 науковців</p>
+										</div>
 									</div>
-								</div>
-								<div class="components__item components__item--bottom-center">
-									<picture><source srcset="img/components/09.webp" type="image/webp"><img src="img/components/09.png" alt="" /></picture>
-									<div class="components__content">
-										<p>80 розвідувачів</p>
-										<p>(70 гостей, 10 розбишак)</p>
+									<div class="components__item components__item--bottom-left" style="grid-row: span 2">
+										<picture
+											><source srcset="img/components/07.webp" type="image/webp" />
+											<img src="img/components/07.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>81 жетон прибутку</p>
+											<p>(53 по 1$, 28 по 5$ )</p>
+										</div>
+										<div class="components__content components__content--double">
+											<p>1 мішечок</p>
+										</div>
+									</div>
+
+									<div class="components__item components__item--right-center">
+										<picture
+											><source srcset="img/components/10.webp" type="image/webp" />
+											<img style="position: relative; z-index: 1" src="img/components/10.png" alt=""
+										/></picture>
+										<div class="components__content" style="max-width: 167px; padding-left: 40px; margin-left: -15%">
+											<p>29 плиток загонів</p>
+											<p>(двосторонні)</p>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="components__body-top-right">
-								<div class="components__item components__item--bottom-center">
-									<picture><source srcset="img/components/02.webp" type="image/webp"><img src="img/components/02.png" alt="" /></picture>
-									<div class="components__content">
-										<p>20 жетонів корпорації</p>
+							<div class="components__body-bottom">
+								<div class="components__body-bottom-left">
+									<div class="components__item components__item--bottom-center">
+										<picture
+											><source srcset="img/components/11.webp" type="image/webp" />
+											<img src="img/components/11.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>33 плитки поліпшень лабораторії</p>
+										</div>
+									</div>
+									<div class="components__item components__item--bottom-center">
+										<picture
+											><source srcset="img/components/14.webp" type="image/webp" />
+											<img src="img/components/14.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>4 планшети лабараторій</p>
+										</div>
+									</div>
+									<div class="components__item components__item--bottom-center">
+										<picture
+											><source srcset="img/components/17.webp" type="image/webp" />
+											<img src="img/components/17.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>17 карт для соло гри</p>
+											<p>(16 цілей, 1 лічільник раундів)</p>
+										</div>
 									</div>
 								</div>
-								<div class="components__item components__item--bottom-center">
-									<picture><source srcset="img/components/03.webp" type="image/webp"><img src="img/components/03.png" alt="" /></picture>
-									<div class="components__content">
-										<p>12 модифікаторів</p>
+								<div class="components__body-bottom-middle">
+									<div class="components__item components__item--right-center">
+										<img style="position: relative; z-index: 1" src="img/components/12.webp" alt="" />
+										<!-- <picture
+											><source srcset="img/components/12.webp" type="image/webp" />
+											<img style="position: relative; z-index: 1" src="img/components/12.png" alt=""
+										/></picture> -->
+										<div class="components__content" style="padding-left: 71px">
+											<p>
+												<span style="white-space: nowrap">30 плиток</span> <br />
+												споруд
+											</p>
+										</div>
+									</div>
+									<div class="components__item components__item--bottom-center" style="flex: 1 0 50%">
+										<picture
+											><source srcset="img/components/15.webp" type="image/webp" />
+											<img src="img/components/15.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>4 планшети парків</p>
+										</div>
+									</div>
+									<div class="components__item components__item--bottom-center" style="flex: 1 0 40%">
+										<picture
+											><source srcset="img/components/16.webp" type="image/webp" />
+											<img src="img/components/16.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>1 поле ринку</p>
+										</div>
+									</div>
+									<div class="components__item components__item--bottom-center" style="flex: 1 0 35%">
+										<picture
+											><source srcset="img/components/18.webp" type="image/webp" />
+											<img src="img/components/18.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>1 поле розвитку</p>
+										</div>
+									</div>
+									<div class="components__item components__item--bottom-center" style="flex: 1 0 55%">
+										<picture
+											><source srcset="img/components/19.webp" type="image/webp" />
+											<img src="img/components/19.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>Жетон першого гравця</p>
+										</div>
+									</div>
+									<div class="components__item components__item--bottom-center" style="flex: 1 0 45%">
+										<picture
+											><source srcset="img/components/21.webp" type="image/webp" />
+											<img src="img/components/21.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>11 карт несподіванок</p>
+										</div>
+									</div>
+									<div class="components__item components__item--bottom-center" style="flex: 1 0 45%">
+										<picture
+											><source srcset="img/components/22.webp" type="image/webp" />
+											<img src="img/components/22.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>22 карти фахівців</p>
+										</div>
 									</div>
 								</div>
+								<div class="components__body-bottom-right">
+									<div class="components__item components__item--bottom-center">
+										<picture
+											><source srcset="img/components/13.webp" type="image/webp" />
+											<img style="width: 65%; margin-left: auto; display: block" src="img/components/13.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>17 плиток геномів динозаврів</p>
+										</div>
+									</div>
 
-								<div class="components__item components__item--bottom-center">
-									<picture><source srcset="img/components/06.webp" type="image/webp"><img src="img/components/06.png" alt="" /></picture>
-									<div class="components__content">
-										<p>12 науковців</p>
+									<div class="components__item components__item--bottom-center">
+										<picture
+											><source srcset="img/components/20.webp" type="image/webp" />
+											<img src="img/components/20.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>1 поле центру досліджень</p>
+										</div>
 									</div>
-								</div>
-								<div class="components__item components__item--bottom-left" style="grid-row: span 2">
-									<picture><source srcset="img/components/07.webp" type="image/webp"><img src="img/components/07.png" alt="" /></picture>
-									<div class="components__content">
-										<p>81 жетон прибутку</p>
-										<p>(53 по 1$, 28 по 5$ )</p>
-									</div>
-									<div class="components__content components__content--double">
-										<p>1 мішечок</p>
-									</div>
-								</div>
 
-								<div class="components__item components__item--right-center">
-									<picture><source srcset="img/components/10.webp" type="image/webp"><img style="position: relative; z-index: 1" src="img/components/10.png" alt="" /></picture>
-									<div class="components__content" style="max-width: 167px; padding-left: 40px; margin-left: -15%">
-										<p>29 плиток загонів</p>
-										<p>(двосторонні)</p>
+									<div class="components__item components__item--bottom-center">
+										<picture
+											><source srcset="img/components/23.webp" type="image/webp" />
+											<img src="img/components/23.png" alt=""
+										/></picture>
+										<div class="components__content">
+											<p>39 карт цілей</p>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="components__body-bottom">
-							<div class="components__body-bottom-left">
-								<div class="components__item components__item--bottom-center">
-									<picture><source srcset="img/components/11.webp" type="image/webp"><img src="img/components/11.png" alt="" /></picture>
-									<div class="components__content">
-										<p>33 плитки поліпшень лабораторії</p>
-									</div>
-								</div>
-								<div class="components__item components__item--bottom-center">
-									<picture><source srcset="img/components/14.webp" type="image/webp"><img src="img/components/14.png" alt="" /></picture>
-									<div class="components__content">
-										<p>4 планшети лабараторій</p>
-									</div>
-								</div>
-								<div class="components__item components__item--bottom-center">
-									<picture><source srcset="img/components/17.webp" type="image/webp"><img src="img/components/17.png" alt="" /></picture>
-									<div class="components__content">
-										<p>17 карт для соло гри</p>
-										<p>(16 цілей, 1 лічільник раундів)</p>
-									</div>
-								</div>
-							</div>
-							<div class="components__body-bottom-middle">
-								<div class="components__item components__item--right-center">
-									<picture><source srcset="img/components/12.webp" type="image/webp"><img style="position: relative; z-index: 1" src="img/components/12.png" alt="" /></picture>
-									<div class="components__content" style="padding-left: 71px">
-										<p>
-											<span style="white-space: nowrap">30 плиток</span> <br />
-											споруд
-										</p>
-									</div>
-								</div>
-								<div class="components__item components__item--bottom-center" style="flex: 1 0 50%">
-									<picture><source srcset="img/components/15.webp" type="image/webp"><img src="img/components/15.png" alt="" /></picture>
-									<div class="components__content">
-										<p>4 планшети парків</p>
-									</div>
-								</div>
-								<div class="components__item components__item--bottom-center" style="flex: 1 0 40%">
-									<picture><source srcset="img/components/16.webp" type="image/webp"><img src="img/components/16.png" alt="" /></picture>
-									<div class="components__content">
-										<p>1 поле ринку</p>
-									</div>
-								</div>
-								<div class="components__item components__item--bottom-center" style="flex: 1 0 35%">
-									<picture><source srcset="img/components/18.webp" type="image/webp"><img src="img/components/18.png" alt="" /></picture>
-									<div class="components__content">
-										<p>1 поле розвитку</p>
-									</div>
-								</div>
-								<div class="components__item components__item--bottom-center" style="flex: 1 0 55%">
-									<picture><source srcset="img/components/19.webp" type="image/webp"><img src="img/components/19.png" alt="" /></picture>
-									<div class="components__content">
-										<p>Жетон першого гравця</p>
-									</div>
-								</div>
-								<div class="components__item components__item--bottom-center" style="flex: 1 0 45%">
-									<picture><source srcset="img/components/21.webp" type="image/webp"><img src="img/components/21.png" alt="" /></picture>
-									<div class="components__content">
-										<p>11 карт несподіванок</p>
-									</div>
-								</div>
-								<div class="components__item components__item--bottom-center" style="flex: 1 0 45%">
-									<picture><source srcset="img/components/22.webp" type="image/webp"><img src="img/components/22.png" alt="" /></picture>
-									<div class="components__content">
-										<p>22 карти фахівців</p>
-									</div>
-								</div>
-							</div>
-							<div class="components__body-bottom-right">
-								<div class="components__item components__item--bottom-center">
-									<picture><source srcset="img/components/13.webp" type="image/webp"><img style="width: 65%; margin-left: auto" src="img/components/13.png" alt="" /></picture>
-									<div class="components__content">
-										<p>17 плиток геномів динозаврів</p>
-									</div>
-								</div>
-
-								<div class="components__item components__item--bottom-center">
-									<picture><source srcset="img/components/20.webp" type="image/webp"><img src="img/components/20.png" alt="" /></picture>
-									<div class="components__content">
-										<p>1 поле центру досліджень</p>
-									</div>
-								</div>
-
-								<div class="components__item components__item--bottom-center">
-									<picture><source srcset="img/components/23.webp" type="image/webp"><img src="img/components/23.png" alt="" /></picture>
-									<div class="components__content">
-										<p>39 карт цілей</p>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
-				</div>
-			</section>
+				</section>
 
-			<!-- <section class="page__reviews reviews">
+				<section class="page__reviews reviews">
 					<div class="reviews__container">
 						<h2 class="reviews__title title">Відеогляди</h2>
 						<div class="reviews__body">
@@ -688,7 +893,16 @@
 												referrerpolicy="strict-origin-when-cross-origin"
 												allowfullscreen
 											></iframe>
-											<picture><source data-srcset="img/reviews/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/reviews/01.jpg" alt="Preview" /></picture>
+											<picture
+												><source
+													data-srcset="img/reviews/01.webp"
+													srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													type="image/webp" />
+												<img
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													data-src="img/reviews/01.jpg"
+													alt="Preview"
+											/></picture>
 											<button type="button" class="reviews__play play-icon _icon-play"></button>
 										</div>
 										<div class="game__content">
@@ -709,7 +923,16 @@
 												referrerpolicy="strict-origin-when-cross-origin"
 												allowfullscreen
 											></iframe>
-											<picture><source data-srcset="img/reviews/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/reviews/02.jpg" alt="Preview" /></picture>
+											<picture
+												><source
+													data-srcset="img/reviews/02.webp"
+													srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													type="image/webp" />
+												<img
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													data-src="img/reviews/02.jpg"
+													alt="Preview"
+											/></picture>
 											<button type="button" class="reviews__play play-icon _icon-play"></button>
 										</div>
 										<div class="game__content">
@@ -730,7 +953,16 @@
 												referrerpolicy="strict-origin-when-cross-origin"
 												allowfullscreen
 											></iframe>
-											<picture><source data-srcset="img/reviews/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/reviews/03.jpg" alt="Preview" /></picture>
+											<picture
+												><source
+													data-srcset="img/reviews/03.webp"
+													srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													type="image/webp" />
+												<img
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													data-src="img/reviews/03.jpg"
+													alt="Preview"
+											/></picture>
 											<button type="button" class="reviews__play play-icon _icon-play"></button>
 										</div>
 										<div class="game__content">
@@ -751,7 +983,16 @@
 												referrerpolicy="strict-origin-when-cross-origin"
 												allowfullscreen
 											></iframe>
-											<picture><source data-srcset="img/reviews/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/reviews/04.jpg" alt="Preview" /></picture>
+											<picture
+												><source
+													data-srcset="img/reviews/04.webp"
+													srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													type="image/webp" />
+												<img
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													data-src="img/reviews/04.jpg"
+													alt="Preview"
+											/></picture>
 											<button type="button" class="reviews__play play-icon _icon-play"></button>
 										</div>
 										<div class="game__content">
@@ -772,7 +1013,16 @@
 												referrerpolicy="strict-origin-when-cross-origin"
 												allowfullscreen
 											></iframe>
-											<picture><source data-srcset="img/reviews/05.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/reviews/05.jpg" alt="Preview" /></picture>
+											<picture
+												><source
+													data-srcset="img/reviews/05.webp"
+													srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													type="image/webp" />
+												<img
+													src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+													data-src="img/reviews/05.jpg"
+													alt="Preview"
+											/></picture>
 											<button type="button" class="reviews__play play-icon _icon-play"></button>
 										</div>
 										<div class="game__content">
@@ -802,200 +1052,299 @@
 							</button>
 						</div>
 					</div>
-				</section> -->
-			<section class="page__production production">
-				<div class="production__container">
-					<h2 class="production__title title title--left">Виробництво та доставка</h2>
-					<div class="production__body">
-						<div class="production__content">
-							<div class="production__text">
-								<div class="production__text-top">
-									<p><strong>Гра вже у нас на складі!</strong></p>
-									<p>Надсилання передзамовлень відбуватиметься Новою Поштою / УкрПоштою / точки видачі Розетка нашим коштом!</p>
-								</div>
-								<div class="production__info item-preorder--decor">
-									<div class="item-preorder--decor-wrapper">
-										<p>Можливий <strong>самовивіз</strong> в Одесі (вул. Новосельського, 100 або вул. Садова, 9)</p>
-										<p>
-											Акційна пропозиція на гру зі знижкою <strong>21%</strong> триватиме <strong>до 31-го серпня 2024 року</strong>. Отже,
-											встигніть придбати неймовірну гру за найвигіднішою ціною!
-										</p>
+				</section>
+				<section class="page__production production">
+					<div class="production__container">
+						<h2 class="production__title title title--left">Виробництво та доставка</h2>
+						<div class="production__body">
+							<div class="production__content">
+								<div class="production__text">
+									<div class="production__text-top">
+										<p><strong>Гра вже у нас на складі!</strong></p>
+										<p>Надсилання передзамовлень відбуватиметься Новою Поштою / УкрПоштою / точки видачі Розетка нашим коштом!</p>
 									</div>
-								</div>
-							</div>
-							<a href="#" data-goto=".page__orders" type="button" class="button production__button button--red-decor"><span>Оформити замовлення</span></a>
-						</div>
-						<div data-da=".production__content, 768, 2" class="production__media">
-							<div class="production__image">
-								<picture><source srcset="img/production/01.webp" type="image/webp"><img src="img/production/01.png" alt="Koca" /></picture>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="page__orders orders">
-				<div class="orders__container">
-					<h2 class="orders__title title">Гуртові замовлення</h2>
-					<div class="orders__body">
-						<div class="orders__text item-preorder--decor">
-							<p>Планета Ігор - ексклюзивний гуртовий постачальник гри Острів динозаврів на території України!</p>
-							<p>В нашому прайс-листі доступні ще понад 2000 позицій. Заповнюйте форму та отримуйте гуртові умови співпраці.</p>
-						</div>
-						<div class="orders__wrapper">
-							<form data-ajax action="#" method="POST" data-popup-message="#form-message" class="orders__form form-orders">
-								<div class="form-orders__row">
-									<div class="form-orders__item">
-										<input autocomplete="off" type="text" name="form[shop-name]" data-error="Помилка" placeholder="Ваш магазин" class="input form-orders__input" />
-									</div>
-									<div class="form-orders__item">
-										<input autocomplete="off" type="text" name="form[user-name]" data-error="Помилка" placeholder="Ваше і`мя
-	
-											" class="input form-orders__input" />
-									</div>
-								</div>
-								<div class="form-orders__row">
-									<div class="form-orders__item">
-										<textarea autocomplete="off" name="form[comment]" placeholder="Ваш комментар
-											" class="input form-orders__input"></textarea>
-									</div>
-									<div class="form-orders__column">
-										<div class="form-orders__item form-orders__item--tel">
-											<span class="form-orders__decor"></span>
-											<input autocomplete="off" id="tel" type="tel" data-required name="form[user-name]" data-error="*Обов’язкове поле" placeholder="+380 (99) 999-99-99
-		
-												" class="input form-orders__input form-orders__input--tel" />
+									<div class="production__info item-preorder--decor">
+										<div class="item-preorder--decor-wrapper">
+											<p>Можливий <strong>самовивіз</strong> в Одесі (вул. Новосельського, 100 або вул. Садова, 9)</p>
+											<p>
+												Акційна пропозиція на гру зі знижкою <strong>21%</strong> триватиме <strong>до 31-го серпня 2024 року</strong>. Отже,
+												встигніть придбати неймовірну гру за найвигіднішою ціною!
+											</p>
 										</div>
-										<button type="submit" class="button form-orders__send button--red-decor"><span>Оформити замовлення </span></button>
 									</div>
 								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="page__contacts contacts">
-				<div class="contacts__container">
-					<div class="contacts__content">
-						<h2 class="contacts__title title title--left">Контакти</h2>
-						<div class="contacts__body">
-							<div class="contacts__wrapper item-preorder--decor">
-								<div class="item-preorder--decor-wrapper">
-									<a href="tel:0504891020" class="contacts__row contacts__row--link _icon-phone fw_600"><span>050 489-10-20</span></a>
-									<a href="mailto:info@planeta-igr.com" class="contacts__row contacts__row--link _icon-mail fw_600"><span>info@planeta-igr.com</span></a>
-									<div class="contacts__row _icon-marker">
-										<span>
-											<p class="fw_600">Магазин "Планета Ігор" -</p>
-											<p>м. Одеса, вул. Новосельского, 100</p>
-										</span>
-									</div>
-									<div class="contacts__row _icon-marker">
-										<span>
-											<p class="fw_600">Клуб-магазин "Планета Ігор" -</p>
-											<p>м. Одеса, вул. Садова, 9</p>
-										</span>
-									</div>
-									<div class="contacts__socials">
-										<a target="_blank" href="https://www.instagram.com/planetaigrcom/" class="contacts__socials-link">
-											<img data-src="img/socials/insta.svg" alt="Instagram" />
-										</a>
-										<a target="_blank" href="https://t.me/joinchat/AAAAAFcZ0PUDr8su7vFKOA" class="contacts__socials-link">
-											<img data-src="img/socials/telegram.svg" alt="Telegram" />
-										</a>
-										<a target="_blank" href="viber://chat?number=%2B380504891020" class="contacts__socials-link">
-											<img data-src="img/socials/viber.svg" alt="Viber" />
-										</a>
-										<a target="_blank" href="https://www.facebook.com/planetaigr/" class="contacts__socials-link">
-											<img data-src="img/socials/facebook.svg" alt="Facebook" />
-										</a>
-									</div>
+								<a href="#" data-goto=".item-preorder--2" type="button" class="button production__button button--red-decor"
+									><span>Оформити замовлення</span></a
+								>
+							</div>
+							<div data-da=".production__content, 768, 2" class="production__media">
+								<div class="production__image">
+									<picture
+										><source srcset="img/production/01.webp" type="image/webp" />
+										<img src="img/production/01.png" alt="Koca"
+									/></picture>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="contacts__map">
-						<a target="_blank" href="https://maps.google.com/maps?ll=46.478234,30.729831&z=16&t=m&hl=uk&gl=US&mapclient=apiv3&cid=9742754339917957168" class="contacts__map-more button button--red-decor"><span>
-								<p class="_icon-arrow-down"><span>Подивитись на карті</span></p>
-							</span></a>
-						<div id="map" class="contacts__map-wrapper"></div>
-					</div>
-				</div>
-			</section>
-			<section class="page__telegram telegram">
-				<div class="telegram__container">
-					<h2 class="telegram__title title title--left">Телеграм канал</h2>
-					<div class="telegram__body">
-						<div class="telegram__image-ibg">
-							<picture><source srcset="img/telegram/image_tg.webp" type="image/webp"><img src="img/telegram/image_tg.jpg" alt="Image" /></picture>
+				</section>
+				<section class="page__orders orders">
+					<div class="orders__container">
+						<h2 class="orders__title title">Гуртові замовлення</h2>
+						<div class="orders__body">
+							<div class="orders__text item-preorder--decor">
+								<p>Планета Ігор - ексклюзивний гуртовий постачальник гри Острів динозаврів на території України!</p>
+								<p>В нашому прайс-листі доступні ще понад 2000 позицій. Заповнюйте форму та отримуйте гуртові умови співпраці.</p>
+							</div>
+							<div class="orders__wrapper">
+								<form data-ajax action="#" method="POST" data-popup-message="#form-message" class="orders__form form-orders">
+									<div class="form-orders__row">
+										<div class="form-orders__item">
+											<input
+												autocomplete="off"
+												type="text"
+												name="form[shop-name]"
+												data-error="Помилка"
+												placeholder="Ваш магазин"
+												class="input form-orders__input"
+											/>
+										</div>
+										<div class="form-orders__item">
+											<input
+												autocomplete="off"
+												type="text"
+												name="form[user-name]"
+												data-error="Помилка"
+												placeholder="Ваше і`мя
+	
+											"
+												class="input form-orders__input"
+											/>
+										</div>
+									</div>
+									<div class="form-orders__row">
+										<div class="form-orders__item">
+											<textarea
+												autocomplete="off"
+												name="form[comment]"
+												placeholder="Ваш комментар
+											"
+												class="input form-orders__input"
+											></textarea>
+										</div>
+										<div class="form-orders__column">
+											<div class="form-orders__item form-orders__item--tel">
+												<span class="form-orders__decor"></span>
+												<input
+													autocomplete="off"
+													id="tel"
+													type="tel"
+													data-required
+													name="form[user-name]"
+													data-error="*Обов’язкове поле"
+													placeholder="+380 (99) 999-99-99
+		
+												"
+													class="input form-orders__input form-orders__input--tel"
+												/>
+											</div>
+											<button type="submit" class="button form-orders__send button--red-decor"><span>Оформити замовлення </span></button>
+										</div>
+									</div>
+								</form>
+							</div>
 						</div>
-						<div class="telegram__content">
-							<div class="telegram__text">
-								<div class="telegram__wrapper">
-									<span>Наш Телеграм канал</span> Клубу, магазину та видавництва. Підпишіться і будете завжди першими дізнаватись
-									<span>про останні новини Планетки!</span>
+					</div>
+				</section>
+				<section class="page__contacts contacts">
+					<div class="contacts__container">
+						<div class="contacts__content">
+							<h2 class="contacts__title title title--left">Контакти</h2>
+							<div class="contacts__body">
+								<div class="contacts__wrapper item-preorder--decor">
+									<div class="item-preorder--decor-wrapper">
+										<a href="tel:0504891020" class="contacts__row contacts__row--link _icon-phone fw_600"><span>050 489-10-20</span></a>
+										<a href="mailto:info@planeta-igr.com" class="contacts__row contacts__row--link _icon-mail fw_600"
+											><span>info@planeta-igr.com</span></a
+										>
+										<div class="contacts__row _icon-marker">
+											<span>
+												<p class="fw_600">Магазин "Планета Ігор" -</p>
+												<p>м. Одеса, вул. Новосельского, 100</p>
+											</span>
+										</div>
+										<div class="contacts__row _icon-marker">
+											<span>
+												<p class="fw_600">Клуб-магазин "Планета Ігор" -</p>
+												<p>м. Одеса, вул. Садова, 9</p>
+											</span>
+										</div>
+										<div class="contacts__socials">
+											<a target="_blank" href="https://www.instagram.com/planetaigrcom/" class="contacts__socials-link">
+												<img data-src="img/socials/insta.svg" alt="Instagram" />
+											</a>
+											<a target="_blank" href="https://t.me/joinchat/AAAAAFcZ0PUDr8su7vFKOA" class="contacts__socials-link">
+												<img data-src="img/socials/telegram.svg" alt="Telegram" />
+											</a>
+											<a target="_blank" href="viber://chat?number=%2B380504891020" class="contacts__socials-link">
+												<img data-src="img/socials/viber.svg" alt="Viber" />
+											</a>
+											<a target="_blank" href="https://www.facebook.com/planetaigr/" class="contacts__socials-link">
+												<img data-src="img/socials/facebook.svg" alt="Facebook" />
+											</a>
+										</div>
+									</div>
 								</div>
 							</div>
-							<a target="_blank" href="https://t.me/joinchat/AAAAAFcZ0PUDr8su7vFKOA" class="telegram__subscribe button button--red-decor">
-								<span>Підписатися</span>
+						</div>
+						<div class="contacts__map">
+							<a
+								target="_blank"
+								href="https://maps.google.com/maps?ll=46.478234,30.729831&z=16&t=m&hl=uk&gl=US&mapclient=apiv3&cid=9742754339917957168"
+								class="contacts__map-more button button--red-decor"
+								><span>
+									<p class="_icon-arrow-down"><span>Подивитись на карті</span></p>
+								</span></a
+							>
+							<div id="map" class="contacts__map-wrapper"></div>
+						</div>
+					</div>
+				</section>
+				<section class="page__telegram telegram">
+					<div class="telegram__container">
+						<h2 class="telegram__title title title--left">Телеграм канал</h2>
+						<div class="telegram__body">
+							<div class="telegram__image-ibg">
+								<picture
+									><source srcset="img/telegram/image_tg.webp" type="image/webp" />
+									<img src="img/telegram/image_tg.jpg" alt="Image"
+								/></picture>
+							</div>
+							<div class="telegram__content">
+								<div class="telegram__text">
+									<div class="telegram__wrapper">
+										<span>Наш Телеграм канал</span> Клубу, магазину та видавництва. Підпишіться і будете завжди першими дізнаватись
+										<span>про останні новини Планетки!</span>
+									</div>
+								</div>
+								<a target="_blank" href="https://t.me/joinchat/AAAAAFcZ0PUDr8su7vFKOA" class="telegram__subscribe button button--red-decor">
+									<span>Підписатися</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<svg viewBox="0 0 207 203" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none">
+				<symbol id="svg-shape">
+					<path
+						opacity="0.52"
+						d="M164.248 62.7754C187.437 80.7778 187.568 119.416 164.541 149.077C141.514 178.738 104.049 188.189 80.8606 170.186C57.6718 152.184 12.9601 90.7171 35.9869 61.0564C59.0137 31.3957 141.059 44.7731 164.248 62.7754Z"
+						fill="white"
+					/>
+					<g filter="url(#filter0_b_2022_25)">
+						<path
+							d="M155.349 68.541C175.022 83.8143 175.134 116.595 155.598 141.76C136.062 166.924 104.276 174.942 84.6025 159.669C64.9291 144.396 26.9954 92.2468 46.5315 67.0825C66.0676 41.9182 135.676 53.2676 155.349 68.541Z"
+							fill="white"
+							fill-opacity="0.52"
+						/>
+						<path
+							d="M155.042 68.9359C174.413 83.9739 174.644 116.411 155.203 141.453C135.761 166.495 104.279 174.312 84.9091 159.274C75.1373 151.688 60.7788 134.891 51.3061 116.852C46.5713 107.836 43.0737 98.5399 41.9676 89.9537C40.8619 81.3706 42.1499 73.5417 46.9264 67.3892C51.7118 61.2251 59.5991 57.2562 69.1231 55.0333C78.64 52.8121 89.7341 52.3482 100.853 53.1464C111.969 53.9443 123.09 56.0022 132.653 58.8107C142.227 61.6224 150.197 65.1739 155.042 68.9359Z"
+							stroke="white"
+							fill="white"
+							fill-opacity="0.22"
+						/>
+					</g>
+					<defs>
+						<filter
+							id="filter0_b_2022_25"
+							x="29.0972"
+							y="40.2821"
+							width="153.08"
+							height="139.13"
+							filterUnits="userSpaceOnUse"
+							color-interpolation-filters="sRGB"
+						>
+							<feFlood flood-opacity="0" result="BackgroundImageFix" />
+							<feGaussianBlur in="BackgroundImageFix" stdDeviation="6" />
+							<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2022_25" />
+							<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_2022_25" result="shape" />
+						</filter>
+					</defs>
+				</symbol>
+			</svg>
+			<svg class="svg-hero-decor svg-decor">
+				<clipPath id="svg-hero-decor" clipPathUnits="objectBoundingBox">
+					<path d="M0,1 H0.956 V0.762 V0.709 V0.499 L1,0.414 V0.07 L0.955,0 H0.623 H0.298 H0 V0.11 V0.301 V0.765 V1"></path>
+				</clipPath>
+			</svg>
+			<svg class="svg-order-decor svg-decor">
+				<clipPath id="svg-order-decor" clipPathUnits="objectBoundingBox">
+					<path d="M0,1 H0.941 V0.699 V0.637 V0.571 L1,0.393 V0 H0.955 H0.623 H0.298 H0 V0.218 V0.535 V0.596 V1"></path>
+				</clipPath>
+			</svg>
+			<svg class="svg-decor svg-rating-decor">
+				<clipPath id="svg-rating-decor" clipPathUnits="objectBoundingBox">
+					<path d="M0.04,1 H1 V0.989 V0.724 V0.5 V0.438 V0.415 V0.357 L0.945,0.011 H0.546 H0.399 H0.002 V0.393 V0.466 V0.784 L0.04,1"></path>
+				</clipPath>
+			</svg>
+			<footer class="footer">
+				<div class="footer__container">
+					<a href="#" class="header__logo"><img src="img/logo.svg" alt="Logo" /></a>
+					<a target="_blank" href="viber://chat?number=%2B380504891020" class="socials__item footer-socials__item--viber socials__item--viber">
+						<div class="socials__icon _icon-viber">
+							<span></span>
+						</div>
+					</a>
+					<div class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="https://planeta-igr.com/ua/" class="menu__link">Головна</a></li>
+							<li class="menu__item"><a data-goto=".item-preorder--2" href="#" class="menu__link">Купити</a></li>
+							<li class="menu__item">
+								<a data-goto=".page__components" href="#" class="menu__link">Вміст гри</a>
+							</li>
+							<li class="menu__item"><a data-goto=".page__rules" href="#" class="menu__link">Правила</a></li>
+							<li class="menu__item">
+								<a data-goto=".page__production" href="" class="menu__link">Виробництво</a>
+							</li>
+							<li class="menu__item">
+								<a data-goto=".page__orders" href="#" class="menu__link">Гурт</a>
+							</li>
+							<li class="menu__item">
+								<a data-goto=".page__contacts" href="" class="menu__link">Контакти</a>
+							</li>
+						</ul>
+						<div class="header__socials-mobile">
+							<a target="_blank" href="https://www.instagram.com/planetaigrcom/" class="socials__item">
+								<div class="socials__icon _icon-insta">
+									<span></span>
+								</div>
+							</a>
+							<a target="_blank" href="https://www.tiktok.com/@planetaigrcom" class="socials__item">
+								<div class="socials__icon _icon-tik-tok">
+									<span></span>
+								</div>
+							</a>
+							<a target="_blank" href="https://www.facebook.com/planetaigr/" class="socials__item">
+								<div class="socials__icon _icon-facebook">
+									<span></span>
+								</div>
+							</a>
+
+							<a target="_blank" href="https://t.me/joinchat/AAAAAFcZ0PUDr8su7vFKOA" class="socials__item">
+								<div class="socials__icon _icon-telegram">
+									<span></span>
+								</div>
 							</a>
 						</div>
 					</div>
-				</div>
-			</section>
-		</main>
-		<svg viewBox="0 0 207 203" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none">
-			<symbol id="svg-shape">
-				<path opacity="0.52" d="M164.248 62.7754C187.437 80.7778 187.568 119.416 164.541 149.077C141.514 178.738 104.049 188.189 80.8606 170.186C57.6718 152.184 12.9601 90.7171 35.9869 61.0564C59.0137 31.3957 141.059 44.7731 164.248 62.7754Z" fill="white" />
-				<g filter="url(#filter0_b_2022_25)">
-					<path d="M155.349 68.541C175.022 83.8143 175.134 116.595 155.598 141.76C136.062 166.924 104.276 174.942 84.6025 159.669C64.9291 144.396 26.9954 92.2468 46.5315 67.0825C66.0676 41.9182 135.676 53.2676 155.349 68.541Z" fill="white" fill-opacity="0.52" />
-					<path d="M155.042 68.9359C174.413 83.9739 174.644 116.411 155.203 141.453C135.761 166.495 104.279 174.312 84.9091 159.274C75.1373 151.688 60.7788 134.891 51.3061 116.852C46.5713 107.836 43.0737 98.5399 41.9676 89.9537C40.8619 81.3706 42.1499 73.5417 46.9264 67.3892C51.7118 61.2251 59.5991 57.2562 69.1231 55.0333C78.64 52.8121 89.7341 52.3482 100.853 53.1464C111.969 53.9443 123.09 56.0022 132.653 58.8107C142.227 61.6224 150.197 65.1739 155.042 68.9359Z" stroke="white" fill="white" fill-opacity="0.22" />
-				</g>
-				<defs>
-					<filter id="filter0_b_2022_25" x="29.0972" y="40.2821" width="153.08" height="139.13" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-						<feFlood flood-opacity="0" result="BackgroundImageFix" />
-						<feGaussianBlur in="BackgroundImageFix" stdDeviation="6" />
-						<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2022_25" />
-						<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_2022_25" result="shape" />
-					</filter>
-				</defs>
-			</symbol>
-		</svg>
-		<svg class="svg-hero-decor svg-decor">
-			<clipPath id="svg-hero-decor" clipPathUnits="objectBoundingBox">
-				<path d="M0,1 H0.956 V0.762 V0.709 V0.499 L1,0.414 V0.07 L0.955,0 H0.623 H0.298 H0 V0.11 V0.301 V0.765 V1"></path>
-			</clipPath>
-		</svg>
-		<svg class="svg-order-decor svg-decor">
-			<clipPath id="svg-order-decor" clipPathUnits="objectBoundingBox">
-				<path d="M0,1 H0.941 V0.699 V0.637 V0.571 L1,0.393 V0 H0.955 H0.623 H0.298 H0 V0.218 V0.535 V0.596 V1"></path>
-			</clipPath>
-		</svg>
-		<footer class="footer">
-			<div class="footer__container">
-				<a href="#" class="header__logo"><img src="img/logo.svg" alt="Logo" /></a>
-				<a target="_blank" href="viber://chat?number=%2B380504891020" class="socials__item footer-socials__item--viber socials__item--viber">
-					<div class="socials__icon _icon-viber">
-						<span></span>
-					</div>
-				</a>
-				<div class="header__menu menu">
-					<ul class="menu__list">
-						<li class="menu__item"><a href="https://planeta-igr.com/ua/" class="menu__link">Головна</a></li>
-						<li class="menu__item"><a data-goto=".item-preorder--2" href="#" class="menu__link">Купити</a></li>
-						<li class="menu__item">
-							<a data-goto=".page__components" href="#" class="menu__link">Вміст гри</a>
-						</li>
-						<li class="menu__item"><a data-goto=".page__rules" href="#" class="menu__link">Правила</a></li>
-						<li class="menu__item">
-							<a data-goto=".page__production" href="" class="menu__link">Виробництво</a>
-						</li>
-						<li class="menu__item">
-							<a data-goto=".page__orders" href="#" class="menu__link">Гурт</a>
-						</li>
-						<li class="menu__item">
-							<a data-goto=".page__contacts" href="" class="menu__link">Контакти</a>
-						</li>
-					</ul>
-					<div class="header__socials-mobile">
+					<div class="header__socials socials header__socials--desktop">
+						<a target="_blank" href="viber://chat?number=%2B380504891020" class="socials__item socials__item--viber">
+							<div class="socials__icon _icon-viber">
+								<span></span>
+							</div>
+						</a>
+						<a target="_blank" href="tel:0504891020" class="socials__item socials__phone"> 050 489-10-20 </a>
 						<a target="_blank" href="https://www.instagram.com/planetaigrcom/" class="socials__item">
 							<div class="socials__icon _icon-insta">
 								<span></span>
@@ -1018,67 +1367,47 @@
 							</div>
 						</a>
 					</div>
-				</div>
-				<div class="header__socials socials header__socials--desktop">
-					<a target="_blank" href="viber://chat?number=%2B380504891020" class="socials__item socials__item--viber">
-						<div class="socials__icon _icon-viber">
-							<span></span>
-						</div>
-					</a>
-					<a target="_blank" href="tel:0504891020" class="socials__item socials__phone"> 050 489-10-20 </a>
-					<a target="_blank" href="https://www.instagram.com/planetaigrcom/" class="socials__item">
-						<div class="socials__icon _icon-insta">
-							<span></span>
-						</div>
-					</a>
-					<a target="_blank" href="https://www.tiktok.com/@planetaigrcom" class="socials__item">
-						<div class="socials__icon _icon-tik-tok">
-							<span></span>
-						</div>
-					</a>
-					<a target="_blank" href="https://www.facebook.com/planetaigr/" class="socials__item">
-						<div class="socials__icon _icon-facebook">
-							<span></span>
-						</div>
-					</a>
-
-					<a target="_blank" href="https://t.me/joinchat/AAAAAFcZ0PUDr8su7vFKOA" class="socials__item">
-						<div class="socials__icon _icon-telegram">
-							<span></span>
-						</div>
-					</a>
-				</div>
-				<!-- <a target="_blank" href="tel:0504891020" class="socials__item socials__item--viber">
+					<!-- <a target="_blank" href="tel:0504891020" class="socials__item socials__item--viber">
 			<div class="socials__icon _icon-phone">
 				<span></span>
 			</div>
 		</a> -->
-			</div>
-		</footer>
-
-	</div>
-	<div id="form-message" aria-hidden="true" class="popup">
-		<div class="popup__wrapper">
-			<div class="popup__content">
-				<button data-close type="button" class="popup__close">
-					<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M1.92546 1.92561L20.0745 20.0747M20.0745 1.92561L1.92546 20.0747" stroke="#888888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-					</svg>
-				</button>
-				<div class="popup__text">
-					<div class="popup__icon">
-						<picture><source srcset="img/thank-you.webp" type="image/webp"><img src="img/thank-you.png" alt="" /></picture>
+				</div>
+			</footer>
+		</div>
+		<div id="form-message" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">
+						<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M1.92546 1.92561L20.0745 20.0747M20.0745 1.92561L1.92546 20.0747"
+								stroke="#888888"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
+					</button>
+					<div class="popup__text">
+						<div class="popup__icon">
+							<picture
+								><source srcset="img/thank-you.webp" type="image/webp" />
+								<img src="img/thank-you.png" alt=""
+							/></picture>
+						</div>
+						<div class="popup__title">
+							<picture
+								><source srcset="img/thank-you_title.webp" type="image/webp" />
+								<img src="img/thank-you_title.png" alt=""
+							/></picture>
+						</div>
+						<p>Ваше передзамовлення успішно надіслано!</p>
+						<p>Наші менеджери зв’яжуться з Вами у найближчий час.</p>
 					</div>
-					<div class="popup__title">
-						<picture><source srcset="img/thank-you_title.webp" type="image/webp"><img src="img/thank-you_title.png" alt="" /></picture>
-					</div>
-					<p>Ваше передзамовлення успішно надіслано!</p>
-					<p>Наші менеджери зв’яжуться з Вами у найближчий час.</p>
 				</div>
 			</div>
 		</div>
-	</div>
-	<script src="js/app.min.js?_v=20240817011927"></script>
-</body>
-
+		<script src="js/app.min.js?_v=20240817011927"></script>
+	</body>
 </html>
